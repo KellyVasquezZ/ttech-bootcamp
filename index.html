@@ -5,70 +5,44 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CV Kelly Vasquez</title>
 
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 20px;
-                line-height: 1.6;
-            }
-            ul {
-                list-style-type: none;
-                padding: 0;
-            }
-            li {
-                margin-bottom: 20px;
-            }
-            table {
-                width: 100%;
-                border-collapse: collapse;
-            }
-            th {
-                text-align: center;
-            }
-            th, td {
-                border: 1px solid #ddd;
-                padding: 8px;
-                text-align: left;
-            }
-            section {
-                padding: 10px 0 20px 0;
-                border-bottom: 1px solid #ddd;
-            }
-        </style>
+        <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
-        <header>
-            <h1>Hoja de Vida</h1>
-        </header>
-        
         <div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#inicio">Inicio</a>
-                        <a href="#perfil-profesional">Perfil Profesional</a>
-                        <a href="#experiencia">Experiencia</a>
-                        <a href="#educacion">Educación</a>
-                        <a href="#contacto">Formulario de Contacto</a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="banner">
+                <img src="images/foto-kelly.jpg" alt="Foto de Kelly Vasquez" class="foto" width="150">
+                <div class="titulo">
+                    <h2>Kelly Fernanda Vásquez Zapata</h2>
+                    <span>Ingeniera de Sistemas</span>    
+                </div>
 
-            <section id="inicio">
-                <h2>Kelly Fernanda Vásquez Zapata</h2>
-                <h4>Ingeniera de Sistemas</h4>
-                <img src="images/foto-kelly.jpg" alt="Foto de Kelly Vasquez" width="150">
-            </section>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="#perfil-profesional">Perfil Profesional</a>
+                        </li>
+                        <li>
+                            <a href="#experiencia">Experiencia</a>
+                        </li>
+                        <li>
+                            <a href="#educacion">Educación</a>
+                        </li>
+                        <li>
+                            <a href="#contacto">Formulario de Contacto</a>
+                        </li>
+                    </ul>    
+                </div>
+            </div>
 
             <section id="perfil-profesional">
-                <h2>Perfil Profesional</h2>
+                <h2 class="subtitulo">Perfil Profesional</h2>
                 <p>
                     Ingeniera de Sistemas apasionada por desarrollo frontend y diseño de interfaces. He trabajado con metodologías ágiles como Scrum, aplicando buenas prácticas de desarrollo y optimización de código. Me gusta trabajar en equipo y contribuir con soluciones que mejoren la experiencia del usuario y aporten valor a los proyectos.
                 </p>
             </section>
 
             <section id="experiencia">
-                <h2>Experiencia</h2>
+                <h2 class="subtitulo">Experiencia</h2>
                 <ul>
                     <li>
                         <img src="images/logo-onoff.png" alt="logo on off" width="100">
@@ -94,7 +68,7 @@
             </section>
 
             <section id="educacion">
-                <h2>Educación</h2>
+                <h2 class="subtitulo">Educación</h2>
                 <table>
                     <tr>
                         <th>Titulo</th>
@@ -124,7 +98,7 @@
             </section>
 
             <section id="contacto">
-                <h2>Formulario de Contacto</h2>
+                <h2 class="subtitulo">Formulario de Contacto</h2>
 
                 <form action="#" method="post">
                     <fieldset>
